@@ -65,16 +65,18 @@ public class Main {
             i++;
         }
 
+        System.out.println();
+
         // 4
         i = 0;
         while (i < LEG_SIZE) {
-            int j = LEG_SIZE;
+            int j = LEG_SIZE - 1;
             while (j > i) {
                 System.out.print(' ');
                 j--;
             }
 
-            while (j > 0) {
+            while (j >= 0) {
                 System.out.print('*');
                 j--;
             }
