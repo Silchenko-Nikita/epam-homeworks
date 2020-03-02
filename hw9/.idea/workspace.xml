@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76492260-3113-44e9-b8e3-cc1b599b90a1" name="Default Changelist" comment="">
+    <list default="true" id="58b2e178-748b-40c6-915e-cf1870b84d69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../hw10/src/com/epam/task/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw10/src/com/epam/task/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw10/src/com/epam/task/comparators/BooksPricesDescComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw10/src/com/epam/task/comparators/BooksPricesDescComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw10/src/com/epam/task/comparators/BooksPublishersComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw10/src/com/epam/task/comparators/BooksPublishersComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw8/src/com/epam/task/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw8/src/com/epam/task/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw8/src/com/epam/task/comparators/BooksPricesDescComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw8/src/com/epam/task/comparators/BooksPricesDescComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw8/src/com/epam/task/comparators/BooksPublishersComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hw8/src/com/epam/task/comparators/BooksPublishersComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TemperatureConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TemperatureConverterTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TemperatureConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TemperatureConverterTests$ConversionType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TemperatureConverterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BooksGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BooksGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BooksTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BooksTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Books$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Books$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Books$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Books$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Books$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Books$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BooksTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BooksTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,7 +30,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1YTzQzLpBN4kYltuIYUxz7naytl" />
+  <component name="ProjectId" id="1YZkNvB4R3JFlWpwjkQKT88lMTC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,17 +39,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw7" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw8" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.BooksTestsParameterized">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="hw9" />
@@ -64,30 +60,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperatureConverterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BooksTestsNotParameterized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw9" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TemperatureConverterTests" />
+      <option name="MAIN_CLASS_NAME" value="BooksTestsNotParameterized" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperatureConverterTests.testConvertFtoC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BooksTestsParameterized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hw9" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TemperatureConverterTests" />
-      <option name="METHOD_NAME" value="testConvertFtoC" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="BooksTestsParameterized" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BooksTestsParameterized" />
+        <item itemvalue="JUnit.BooksTestsNotParameterized" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TemperatureConverterTests" />
-        <item itemvalue="JUnit.TemperatureConverterTests.testConvertFtoC" />
       </list>
     </recent_temporary>
   </component>
@@ -96,13 +91,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="76492260-3113-44e9-b8e3-cc1b599b90a1" name="Default Changelist" comment="" />
-      <created>1582981359549</created>
+      <changelist id="58b2e178-748b-40c6-915e-cf1870b84d69" name="Default Changelist" comment="" />
+      <created>1583157467611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1582981359549</updated>
-      <workItem from="1582981363048" duration="3942000" />
-      <workItem from="1583150590552" duration="1731000" />
+      <updated>1583157467611</updated>
+      <workItem from="1583157470481" duration="937000" />
+      <workItem from="1583178323844" duration="1703000" />
     </task>
     <servers />
   </component>
@@ -110,37 +105,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="661" y="246" width="655" height="622" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583150888978">
+    <state x="488" y="138" width="1000" height="839" key="#Inspections" timestamp="1583179605217">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="661" y="246" width="655" height="622" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.37.1853.1043@67.37.1853.1043" timestamp="1583150888978" />
-    <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl" timestamp="1583152000269">
+    <state x="488" y="138" width="1000" height="839" key="#Inspections/67.37.1853.1043@67.37.1853.1043" timestamp="1583179605217" />
+    <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl" timestamp="1583157806722">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl/67.37.1853.1043@67.37.1853.1043" timestamp="1583152000269" />
-    <state width="1793" height="382" key="GridCell.Tab.0.bottom" timestamp="1583151631969">
+    <state x="723" y="258" width="530" height="598" key="FileChooserDialogImpl/67.37.1853.1043@67.37.1853.1043" timestamp="1583157806722" />
+    <state width="1793" height="260" key="GridCell.Tab.0.bottom" timestamp="1583180244119">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="382" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1583151631969" />
-    <state width="1793" height="382" key="GridCell.Tab.0.center" timestamp="1583151631968">
+    <state width="1793" height="260" key="GridCell.Tab.0.bottom/67.37.1853.1043@67.37.1853.1043" timestamp="1583180244119" />
+    <state width="1793" height="260" key="GridCell.Tab.0.center" timestamp="1583180244119">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="382" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1583151631968" />
-    <state width="1793" height="382" key="GridCell.Tab.0.left" timestamp="1583151631968">
+    <state width="1793" height="260" key="GridCell.Tab.0.center/67.37.1853.1043@67.37.1853.1043" timestamp="1583180244119" />
+    <state width="1793" height="260" key="GridCell.Tab.0.left" timestamp="1583180244118">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="382" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1583151631968" />
-    <state width="1793" height="382" key="GridCell.Tab.0.right" timestamp="1583151631968">
+    <state width="1793" height="260" key="GridCell.Tab.0.left/67.37.1853.1043@67.37.1853.1043" timestamp="1583180244118" />
+    <state width="1793" height="260" key="GridCell.Tab.0.right" timestamp="1583180244119">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state width="1793" height="382" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1583151631968" />
-    <state x="351" y="105" key="SettingsEditor" timestamp="1583150830849">
+    <state width="1793" height="260" key="GridCell.Tab.0.right/67.37.1853.1043@67.37.1853.1043" timestamp="1583180244119" />
+    <state x="573" y="252" key="run.anything.popup" timestamp="1583178763747">
       <screen x="67" y="37" width="1853" height="1043" />
     </state>
-    <state x="351" y="105" key="SettingsEditor/67.37.1853.1043@67.37.1853.1043" timestamp="1583150830849" />
-    <state x="530" y="203" width="927" height="708" key="find.popup" timestamp="1583150780250">
-      <screen x="67" y="37" width="1853" height="1043" />
-    </state>
-    <state x="530" y="203" width="927" height="708" key="find.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1583150780250" />
+    <state x="573" y="252" key="run.anything.popup/67.37.1853.1043@67.37.1853.1043" timestamp="1583178763747" />
   </component>
 </project>

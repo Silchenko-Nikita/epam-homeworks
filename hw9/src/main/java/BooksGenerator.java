@@ -1,5 +1,5 @@
 public class BooksGenerator {
-    private static final String[] BOOK_TITLES = {
+    public static final String[] BOOK_TITLES = {
             "Garry Potter",
             "Age of mine",
             "Somebody",
@@ -9,7 +9,7 @@ public class BooksGenerator {
             "Generation lambda"
     };
 
-    private static final String[] AUTHORS = {
+    public static final String[] AUTHORS = {
             "Joanne Rowling",
             "Adolf Hitler",
             "Robert Johnson",
@@ -19,7 +19,7 @@ public class BooksGenerator {
             "Boris Zhukovsky"
     };
 
-    private static final String[] PUBLISHERS = {
+    public static final String[] PUBLISHERS = {
             "Nowadays",
             "Hello world",
             "Foo too",

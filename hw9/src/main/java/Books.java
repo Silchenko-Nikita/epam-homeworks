@@ -2,11 +2,12 @@ import exceptions.BooksNumberException;
 import exceptions.InvalidPercentException;
 import exceptions.ShellSizeException;
 
-import java.io.Serializable;
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Books implements Serializable {
+
+public class Books {
     private Book[] books;
     private int booksNum = 0;
     private Validator validator = new Validator();
@@ -20,6 +21,18 @@ public class Books implements Serializable {
     private Books(Book[] books, int booksNum) {
         this.books = books;
         this.booksNum = booksNum;
+    }
+
+    public Book[] getBooks() {
+        return Arrays.copyOf(books, booksNum);
+    }
+
+    public int getShellSize() {
+        return books.length;
+    }
+
+    public int getBooksNum() {
+        return booksNum;
     }
 
     @Override
@@ -36,7 +49,7 @@ public class Books implements Serializable {
     }
 
     public void add(Book book) throws BooksNumberException {
-        validator.validateBooksNumber(booksNum, books.length);
+        validator.validateBooksNumberGE(booksNum, books.length);
 
         books[booksNum++] = book;
     }
@@ -77,11 +90,12 @@ public class Books implements Serializable {
         return booksPublishedAfterYear;
     }
 
-    public void generateBooks(int booksNum) {
-        this.booksNum = Math.min(booksNum, books.length);
-        for (int i = 0; i < this.booksNum; i++) {
+    public void generateBooks(int booksNum) throws BooksNumberException {
+        validator.validateBooksNumberG(this.booksNum + booksNum, books.length);
+        for (int i = this.booksNum; i < booksNum; i++) {
             books[i] = BooksGenerator.generateBook();
         }
+        this.booksNum += booksNum;
     }
 
     public Books getSortedByAuthorsBooks() {

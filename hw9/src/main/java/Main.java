@@ -20,41 +20,14 @@ public class Main {
             System.exit(0);
         }
 
-        books.generateBooks(shellSize * 7 / 10);
         try {
+            books.generateBooks(shellSize * 7 / 10);
             books.add(new Book(5001, "Harry Potter", "Joanne Rowling","Foo too",
                     1998, 550, 200));
         } catch (BooksNumberException e) {
             // nothing
         }
         System.out.println();
-    }
-
-    private static void printSortedByAuthorsBooks() {
-        System.out.println("Books sorted by authors names:");
-        try {
-            System.out.println(books.getSortedByAuthorsBooks());
-        } catch (ShellSizeException e) {
-            System.out.println(e.getMessage());
-        }
-    }
-
-    private static void printSortedByPublishersBooks() {
-        System.out.println("Books sorted by publisher names:");
-        try {
-            System.out.println(books.getSortedByPublishersBooks());
-        } catch (ShellSizeException e) {
-            System.out.println(e.getMessage());
-        }
-    }
-
-    private static void printSortedByPricesDescBooks() {
-        System.out.println("Books sorted by prices in descending order:");
-        try {
-            System.out.println(books.getSortedByPricesDescBooks());
-        } catch (ShellSizeException e) {
-            System.out.println(e.getMessage());
-        }
     }
 
     private static void repriceBooks() {
@@ -135,12 +108,9 @@ public class Main {
         generateBooks();
 
         printBooksWithMessage("Basic books:", books);
-
-        printSortedByAuthorsBooks();
-
-        printSortedByPublishersBooks();
-
-        printSortedByPricesDescBooks();
+        printBooksWithMessage("Books sorted by author names:", books.getSortedByAuthorsBooks());
+        printBooksWithMessage("Books sorted by publisher names:", books.getSortedByPublishersBooks());
+        printBooksWithMessage("Books sorted by prices in descending order:", books.getSortedByPricesDescBooks());
 
         repriceBooks();
 

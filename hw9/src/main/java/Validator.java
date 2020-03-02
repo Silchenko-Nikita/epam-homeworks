@@ -5,8 +5,12 @@ import exceptions.ShellSizeException;
 import java.io.Serializable;
 
 public class Validator implements Serializable {
-    public void validateBooksNumber(int booksNum, int shellSize) throws BooksNumberException {
+    public void validateBooksNumberGE(int booksNum, int shellSize) throws BooksNumberException {
         if (booksNum >= shellSize) throw new BooksNumberException("Number of books reached shell size");
+    }
+
+    public void validateBooksNumberG(int booksNum, int shellSize) throws BooksNumberException {
+        if (booksNum > shellSize) throw new BooksNumberException("Number of books reached shell size");
     }
 
     public void validatePercent(double percent) throws InvalidPercentException {
