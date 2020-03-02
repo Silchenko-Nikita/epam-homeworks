@@ -1,15 +1,12 @@
-package com.epam.task;
+import exceptions.BooksNumberException;
+import exceptions.InvalidPercentException;
+import exceptions.ShellSizeException;
 
-import com.epam.task.comparators.BooksAuthorsComparator;
-import com.epam.task.comparators.BooksPricesDescComparator;
-import com.epam.task.comparators.BooksPublishersComparator;
-import com.epam.task.exceptions.BooksNumberException;
-import com.epam.task.exceptions.InvalidPercentException;
-import com.epam.task.exceptions.ShellSizeException;
-
+import java.io.Serializable;
 import java.util.Arrays;
+import java.util.Comparator;
 
-public class Books {
+public class Books implements Serializable {
     private Book[] books;
     private int booksNum = 0;
     private Validator validator = new Validator();
@@ -89,19 +86,62 @@ public class Books {
 
     public Books getSortedByAuthorsBooks() {
         Books sortedBooks = new Books(books, booksNum);
-        Arrays.sort(sortedBooks.books, new BooksAuthorsComparator());
+        Arrays.sort(sortedBooks.books, new Comparator<Book>() {
+            @Override
+            public int compare(Book b1, Book b2) {
+                if (b1 == null) {
+                    return 1;
+                }
+
+                if (b2 == null) {
+                    return -1;
+                }
+
+                return b1.getAuthor().compareTo(b2.getAuthor());
+            }
+        });
         return sortedBooks;
     }
 
     public Books getSortedByPublishersBooks() {
         Books sortedBooks = new Books(books, booksNum);
-        Arrays.sort(sortedBooks.books, new BooksPublishersComparator());
+        Arrays.sort(sortedBooks.books, new Comparator<Book>() {
+            @Override
+            public int compare(Book b1, Book b2) {
+                if (b1 == null) {
+                    return 1;
+                }
+
+                if (b2 == null) {
+                    return -1;
+                }
+
+                return b1.getPublisher().compareTo(b2.getPublisher());
+            }
+        });
         return sortedBooks;
     }
 
     public Books getSortedByPricesDescBooks() {
         Books sortedBooks = new Books(books, booksNum);
-        Arrays.sort(sortedBooks.books, new BooksPricesDescComparator());
+        Arrays.sort(sortedBooks.books, new Comparator<Book>() {
+            @Override
+            public int compare(Book b1, Book b2) {
+                if (b1 == null) {
+                    return 1;
+                }
+
+                if (b2 == null) {
+                    return -1;
+                }
+
+                if (b2.getPrice() > b1.getPrice()) {
+                    return 1;
+                } else {
+                    return -1;
+                }
+            }
+        });
         return sortedBooks;
     }
 }

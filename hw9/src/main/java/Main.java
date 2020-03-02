@@ -1,8 +1,6 @@
-package com.epam.task;
-
-import com.epam.task.exceptions.BooksNumberException;
-import com.epam.task.exceptions.InvalidPercentException;
-import com.epam.task.exceptions.ShellSizeException;
+import exceptions.BooksNumberException;
+import exceptions.InvalidPercentException;
+import exceptions.ShellSizeException;
 
 import java.util.Scanner;
 
@@ -30,6 +28,33 @@ public class Main {
             // nothing
         }
         System.out.println();
+    }
+
+    private static void printSortedByAuthorsBooks() {
+        System.out.println("Books sorted by authors names:");
+        try {
+            System.out.println(books.getSortedByAuthorsBooks());
+        } catch (ShellSizeException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private static void printSortedByPublishersBooks() {
+        System.out.println("Books sorted by publisher names:");
+        try {
+            System.out.println(books.getSortedByPublishersBooks());
+        } catch (ShellSizeException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    private static void printSortedByPricesDescBooks() {
+        System.out.println("Books sorted by prices in descending order:");
+        try {
+            System.out.println(books.getSortedByPricesDescBooks());
+        } catch (ShellSizeException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     private static void repriceBooks() {
@@ -110,9 +135,12 @@ public class Main {
         generateBooks();
 
         printBooksWithMessage("Basic books:", books);
-        printBooksWithMessage("Books sorted by author names:", books.getSortedByAuthorsBooks());
-        printBooksWithMessage("Books sorted by publisher names:", books.getSortedByPublishersBooks());
-        printBooksWithMessage("Books sorted by prices in descending order:", books.getSortedByPricesDescBooks());
+
+        printSortedByAuthorsBooks();
+
+        printSortedByPublishersBooks();
+
+        printSortedByPricesDescBooks();
 
         repriceBooks();
 

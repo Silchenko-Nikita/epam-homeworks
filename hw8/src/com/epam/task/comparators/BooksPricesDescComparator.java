@@ -15,7 +15,7 @@ public class BooksPricesDescComparator implements Comparator {
         }
 
         if (b2 == null) {
-            return 11;
+            return -1;
         }
 
         if (b2.getPrice() > b1.getPrice()) {

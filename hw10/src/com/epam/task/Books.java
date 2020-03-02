@@ -88,19 +88,19 @@ public class Books implements Serializable {
         }
     }
 
-    public Books getSortedByAuthorsBooks() throws ShellSizeException {
+    public Books getSortedByAuthorsBooks() {
         Books sortedBooks = new Books(books, booksNum);
         Arrays.sort(sortedBooks.books, new BooksAuthorsComparator());
         return sortedBooks;
     }
 
-    public Books getSortedByPublishersBooks() throws ShellSizeException {
+    public Books getSortedByPublishersBooks() {
         Books sortedBooks = new Books(books, booksNum);
         Arrays.sort(sortedBooks.books, new BooksPublishersComparator());
         return sortedBooks;
     }
 
-    public Books getSortedByPricesDescBooks() throws ShellSizeException {
+    public Books getSortedByPricesDescBooks() {
         Books sortedBooks = new Books(books, booksNum);
         Arrays.sort(sortedBooks.books, new BooksPricesDescComparator());
         return sortedBooks;

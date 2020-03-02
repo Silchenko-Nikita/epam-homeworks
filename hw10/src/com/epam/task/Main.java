@@ -33,34 +33,7 @@ public class Main {
         }
         System.out.println();
     }
-
-    private static void printSortedByAuthorsBooks() {
-        System.out.println("Books sorted by authors names:");
-        try {
-            System.out.println(books.getSortedByAuthorsBooks());
-        } catch (ShellSizeException e) {
-            System.out.println(e.getMessage());
-        }
-    }
-
-    private static void printSortedByPublishersBooks() {
-        System.out.println("Books sorted by authors names:");
-        try {
-            System.out.println(books.getSortedByAuthorsBooks());
-        } catch (ShellSizeException e) {
-            System.out.println(e.getMessage());
-        }
-    }
-
-    private static void printSortedByPricesDescBooks() {
-        System.out.println("Books sorted by prices in descending order:");
-        try {
-            System.out.println(books.getSortedByPricesDescBooks());
-        } catch (ShellSizeException e) {
-            System.out.println(e.getMessage());
-        }
-    }
-
+    
     private static void repriceBooks() {
         System.out.print("Enter percent to reprice (from -100) -> ");
         double percent = scanner.nextDouble();
@@ -163,14 +136,9 @@ public class Main {
         }
 
         printBooksWithMessage("Basic books:", books);
-
-        printSortedByAuthorsBooks();
-
-        printSortedByPublishersBooks();
-
-        printSortedByPublishersBooks();
-
-        printSortedByPricesDescBooks();
+        printBooksWithMessage("Books sorted by author names:", books.getSortedByAuthorsBooks());
+        printBooksWithMessage("Books sorted by publisher names:", books.getSortedByPublishersBooks());
+        printBooksWithMessage("Books sorted by prices in descending order:", books.getSortedByPricesDescBooks());
 
         repriceBooks();
 

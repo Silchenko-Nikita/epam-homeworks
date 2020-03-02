@@ -15,7 +15,7 @@ public class BooksPublishersComparator implements Comparator {
         }
 
         if (b2 == null) {
-            return 11;
+            return -1;
         }
 
         return b1.getPublisher().compareTo(b2.getPublisher());
